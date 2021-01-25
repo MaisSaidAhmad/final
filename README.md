@@ -8,13 +8,13 @@ terraform init
 terraform apply
 
   
-and now go to your aws console and get your instance public ip**  
-and you will find the app in "your-instance-ip:8000"**  
+and now go to your aws console and get your instance public ip 
+and you will find the app in "your-instance-ip:8000"  
 
 how to run in k8s: 
 cd k8s  
 kubectl apply -f backend-dy.yml -f backend-sr.yml -f frontend-dy.yml -f frontend-sr.yml -f auti-dy.yml -f auti-sr.yml  
 
-you will find the app in "127.0.0.1:31096"**  
+you will find the app in "127.0.0.1:31096" 
 
 
